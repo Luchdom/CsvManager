@@ -1,2 +1,2 @@
 # CsvManager
-.NET Standard library to manage import and export of files in csv format
+.NET Standard library to import and export files in csv format.
