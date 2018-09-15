@@ -29,7 +29,8 @@ namespace CsvManager.ConsoleApp
             //save invoicesWithZeroValues.csv
             invoiceWrapper.ExportListToFile(invoicesWithZeroValues, propertiesToExport, $"{path}/{nameof(invoicesWithZeroValues)}.csv");
 
-            Console.WriteLine("Arquivos salvos na pasta bin\\Debug\\netcoreapp2.0.");
+            Console.WriteLine("Sample file exported.");
+            Console.ReadKey();
         }
     }
 }
